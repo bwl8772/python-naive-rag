@@ -1,0 +1,40 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Building the Naive RAG/*
+!/Building the Naive RAG/task/
+/Building the Naive RAG/task/*
+!/Building the Naive RAG/task/main.py
+
+# Local runtimes, model downloads, environments, and private configuration
+.cache/
+.local/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.gguf
+*.onnx
+*.safetensors
+*.log
+*.sqlite*
+*.db
+qdrant_storage/
+qdrant-storage/
+.DS_Store
